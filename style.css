@@ -1,0 +1,16 @@
+body 
+{
+background-image : url(https://media.giphy.com/media/MPbLYRdJzLKa4/giphy.gif);
+background-repeat: repeat;
+}
+p
+{
+    color:silver;
+    font-size: 250%;
+}
+
+.container
+{
+    margin-top:10%;
+    border:dashed 3px silver;
+}
