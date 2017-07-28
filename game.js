@@ -22,6 +22,7 @@ document.onkeyup = function(event)
 
 	else if(userChoice === randomLetter)
 	{
+		alert("You won!");
 		 wins++;
 		 guesses=10;
 		 guessesSoFar=[];
@@ -35,6 +36,7 @@ document.onkeyup = function(event)
 	}
 	else
 	{
+		 alert("You lost!")
 		 losses++;
 		 guesses=10;
 		 guessesSoFar=[];
